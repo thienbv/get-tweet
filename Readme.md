@@ -1,4 +1,4 @@
-# get-tweet
+# get-twitter-status
 
 [![Build Status](https://github.com/TooTallNate/node-agent-base/workflows/Node%20CI/badge.svg)](https://github.com/thienbv/get-tweet)
 
