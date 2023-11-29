@@ -27,7 +27,6 @@ const getTweet = async (tweetID) => {
     },
   };
   const { data } = await axios.get(url, { headers: config.headers });
-  console.log(JSON.stringify(data));
   return data;
 };
-getTweet("1719734071243207033");
+module.exports = { getTweet, getGuestToken };
